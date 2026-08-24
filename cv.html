@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV — Ryley Crow</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="index.html">Ryley Crow</a>
+  <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav ul').classList.toggle('open')">&#9776;</button>
+  <ul>
+    <li><a class="navlink" href="index.html">Home</a></li>
+    <li><a class="navlink" href="about.html">About</a></li>
+    <li><a class="navlink" href="research.html">Research</a></li>
+    <li><a class="navlink" href="publications.html">Publications</a></li>
+    <li><a class="navlink active" href="cv.html">CV</a></li>
+    <li><a class="navlink" href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<header class="hero hero-small">
+  <div class="hero-inner">
+    <h1>Curriculum Vitae</h1>
+    <p class="tagline">View below or download a copy.</p>
+    <a class="btn" href="files/cv.pdf" download>Download CV (PDF)</a>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container wide">
+    <iframe class="cv-frame" src="files/cv.pdf" title="Curriculum Vitae PDF"></iframe>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Ryley Crow &middot; <a href="mailto:ryley@gwmail.gwu.edu">ryley@gwmail.gwu.edu</a></p>
+</footer>
+
+</body>
+</html>
